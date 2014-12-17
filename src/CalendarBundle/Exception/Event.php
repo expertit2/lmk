@@ -1,6 +1,6 @@
 <?php
 
-namespace Solution10\Calendar\Exception;
+namespace Ei\Calendar\Exception;
 
 use Exception;
 
