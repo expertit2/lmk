@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed0d923358021c2b1952e3ce43c12681",
+    "hash": "d9b10f23b90863055ddc9a3413a84b90",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1152,6 +1152,52 @@
             "time": "2014-07-19 10:52:35"
         },
         {
+            "name": "solution10/calendar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Solution10/calendar.git",
+                "reference": "abd71418eb79c46925f0cb1b540445af62855ce9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Solution10/calendar/zipball/abd71418eb79c46925f0cb1b540445af62855ce9",
+                "reference": "abd71418eb79c46925f0cb1b540445af62855ce9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "dev-master",
+                "phpunit/phpunit": "4.1.*",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Solution10\\Calendar\\": "src",
+                    "Solution10\\Calendar\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Gisby",
+                    "email": "alex@solution10.com"
+                }
+            ],
+            "description": "Straightforward calendars, with events, for any templating system",
+            "keywords": [
+                "calendar"
+            ],
+            "time": "2014-10-29 22:49:15"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.3.1",
             "source": {
@@ -1661,7 +1707,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "solution10/calendar": 20
+    },
     "prefer-stable": false,
     "platform": {
         "php": ">=5.3.3"
